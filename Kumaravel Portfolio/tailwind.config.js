@@ -10,43 +10,28 @@ export default {
       "2xl": "1536px",
     },
     colors: {
-      /* brown: "#53423e",
-      lightBrown: "#645550",
-      darkBrown: "#2d2421",
-      black: "#1e1917",
-      white: "#f1e1d9",
-      cyan: "#5fcfdd",
-      lightCyan: "#88e5f0",
-      darkCyan: "#009fb3",
-      orange: "#f0a94f",
-      lightOrange: "#fac27b",
-      darkOrange: "#d28422",
-      grey: "#626965",
-      lightGrey: "#8a938e",
-      darkGrey: "#3f4441",
-       */
-      brown: "#53423e",
-      lightBrown: "#645550",
-      darkBrown: "#2c2523",
-      black: "#1e1917",
-      white: "#f1e1d9",
-      cyan: "#15d1e9",
-      lightCyan: "#88e5f0",
-      darkCyan: "#009fb3",
-      orange: "#fb9718",
-      lightOrange: "#fac27b",
-      darkOrange: "#d28422",
-      grey: "#626965",
-      lightGrey: "#978580",
-      darkGrey: "#3f4441",
+      // Professional palette with rich blue tones
+      primary: "#3b82f6", // Bright blue
+      primaryDark: "#1d4ed8", // Darker blue
+      primaryLight: "#60a5fa", // Lighter blue
+      secondary: "#fb9718", // Orange accent
+      secondaryDark: "#d28422", // Darker orange
+      secondaryLight: "#fcd34d", // Light yellow-orange
+      dark: "#0f172a", // Very dark blue (almost black)
+      darkBlue: "#1e293b", // Dark blue-gray
+      light: "#f8fafc", // Off-white
+      white: "#ffffff", // Pure white
+      gray: "#64748b", // Medium gray
+      lightGray: "#cbd5e1", // Light gray
+      darkGray: "#334155", // Dark gray
+      black: "#020617", // Near black
+      transparent: "transparent", // Add transparent color
     },
     extend: {
       boxShadow: {
-        cyanShadow: "0px 0px 20px 0px rgba(94, 206, 220, 0.5)",
-        cyanBigShadow: "10px 10px 1000px 500px rgba(94, 206, 220, 0.3)",
-        cyanMediumShadow: "10px 10px 200px 150px rgba(94, 206, 220, 0.5)",
-        orangeBigShadow: "10px 10px 10000px 500px rgba(240, 169, 79, 0.3)",
-        orangeMediumShadow: "10px 10px 2000px 150px rgba(240, 169, 79, 0.5)",
+        highlight: "0px 0px 20px 0px rgba(59, 130, 246, 0.5)",
+        glow: "10px 10px 30px 15px rgba(59, 130, 246, 0.3)",
+        accentGlow: "10px 10px 30px 15px rgba(251, 151, 24, 0.3)",
       },
     },
     fontFamily: {
