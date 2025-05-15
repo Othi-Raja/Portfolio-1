@@ -1,4 +1,4 @@
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 
 const AboutMeText = () => {
   return (
@@ -11,17 +11,19 @@ const AboutMeText = () => {
         enjoy continuous learning and sharing knowledge to inspire others to
         achieve their goals.
       </p>
-      <button className="border border-orange rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center">
-        <Link
+      <button download className="border border-orange rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center">
+        {/* <Link
           spy={true}
           smooth={true}
           duration={500}
           offset={-120}
           to="projects"
           className="cursor-pointer text-white hover:text-cyan transition-all duration-500"
-        >
-          My Projects
-        </Link>
+        > */}
+     <a download={true} href="Kumaravel_Frontend_Developer_Resume1.pdf">
+       Download CV
+     </a>
+        {/* </Link> */}
       </button>
     </div>
   );
