@@ -14,6 +14,7 @@ const AboutMeText = () => {
        <a
         download="Kumaravel_Frontend_Developer_Resume1.pdf"
         href="Kumaravel_Frontend_Developer_Resume1.pdf"
+
         className="border border-orange rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer text-white hover:text-cyan"
       >
         Download CV
