@@ -11,7 +11,7 @@ const AboutMeText = () => {
         enjoy continuous learning and sharing knowledge to inspire others to
         achieve their goals.
       </p>
-       <a
+       <a 
         download="Kumaravel_Frontend_Developer_Resume1.pdf"
         href="Kumaravel_Frontend_Developer_Resume1.pdf"
 
